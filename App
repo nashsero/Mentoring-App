@@ -1,0 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDUPCEhwJvyFBFPlBzjvHan5lo2SEytVw4",
+    authDomain: "mentoring-system-1e06a.firebaseapp.com",
+    projectId: "mentoring-system-1e06a",
+    storageBucket: "mentoring-system-1e06a.appspot.com",
+    messagingSenderId: "872684273211",
+    appId: "1:872684273211:web:2a91f6b6ec6a086769661e",
+    measurementId: "G-EFWNY8ET12"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script> 
